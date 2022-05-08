@@ -1,0 +1,128 @@
+img,
+svg {
+  vertical-align: middle;
+}
+
+section.covidCaremodule {
+  margin: 50px 0px;
+  border: 2px solid #000;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.col-md-3 {
+  padding-right: 5px;
+}
+
+.carousel-inner {
+  display: flex;
+  height: 100%;
+  width: 400%;
+  justify-content: space-between;
+  animation: imgBox 10s linear infinite;
+}
+
+@keyframes imgBox {
+  0% {
+    margin-left: 0;
+  }
+
+  100% {
+    margin-left: -300%;
+  }
+}
+
+.carousel-inner:hover {
+  animation-play-state: paused;
+}
+
+.carousel-inner .carousel-item {
+  width: calc(100% - 100px);
+  height: 100%;
+}
+
+.carousel-inner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.bannerslide img {
+  width: 100%;
+}
+
+section {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+ul.navbar-nav {
+  margin: 0px;
+}
+
+header.section-header .navbar-dark .navbar-nav .nav-item {
+  display: inline-block;
+  padding: 16px;
+}
+
+li.nav-item.dropdown {
+  position: relative;
+}
+
+li.nav-item.dropdown:hover ul.dropdown-menu {
+  display: block;
+}
+
+ul.dropdown-menu {
+  width: 150px;
+  left: 0px;
+}
+
+ul.dropdown-menu>li a {
+  padding: 8px 12px;
+  display: block;
+}
+
+footer.footer p {
+  margin-bottom: 0px;
+}
+
+section.covidCaremodule .container-fluid .row>.col-md-3 {
+  padding: 0px 10px;
+  width: calc(100%/4);
+}
+
+section.covidCaremodule .container-fluid .row {
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.productData {
+  padding: 10px;
+  overflow: hidden;
+}
+
+.productData img {
+  transition: all 0.56s ease-in-out;
+}

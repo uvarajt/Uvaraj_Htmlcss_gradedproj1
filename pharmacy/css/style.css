@@ -1,0 +1,359 @@
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
+
+.nav-item {
+    display: inline;
+}
+
+.navbar-collapse {
+    column-span: all;
+}
+
+li {
+    padding: 0.2em;
+    /* display: list-item;
+    text-align: -webkit-match-parent; */
+}
+
+.brandName a {
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.brandName {
+    text-align: right;
+    padding: 10px 0px;
+    background: #4f4f4f;
+}
+
+footer.footer {
+    background: #000;
+}
+
+footer.footer p {
+    text-align: right;
+    color: #fff;
+    padding: 10px 0px;
+}
+
+header.section-header .bg-primary {
+    background-color: #7e7e7e !important;
+    padding: 0px !important;
+}
+
+header.section-header .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+}
+
+header.section-header li.nav-item:hover {
+    background: #272727;
+}
+
+header.section-header .navbar-dark .navbar-nav .nav-link:focus,
+header.section-header .navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+header.section-header .dropdown-item:focus,
+header.section-header .dropdown-item:hover {
+    color: #fff;
+    background-color: #272727;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+    display: none;
+    /* min-width: 10rem; */
+    padding: 0.5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 0.25rem;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+select#testType {
+    color: #6c757d;
+}
+
+.formLab {
+    background: #fff;
+}
+
+.imageSection {
+    background-image: url(./images/lab-test.jpg);
+    height: 400px;
+    overflow-y: scroll;
+    background-attachment: fixed;
+    background-size: 50%;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+.imageSection .form-inline {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.imageSection .form-group {
+    width: 45%;
+}
+
+.imageSection .form-group input,
+.imageSection .form-group select#testType {
+    border: transparent;
+    border-bottom: 1px solid #d5d2d2;
+}
+
+.imageSection h3 {
+    font-size: 18px;
+    padding: 20px 0px;
+}
+
+.imageSection label.radio-inline {
+    padding-right: 10px;
+}
+
+.imageSection label.radio-inline input {
+    margin-right: 5px;
+}
+
+.submitButtons button {
+    background: #9151dc;
+    color: #fff;
+    font-weight: 500;
+}
+
+.submitButtons {
+    float: left;
+    margin-left: 40%;
+}
+
+.row.imageSection {
+    border: 1px solid #f1f1f1;
+    padding: 10px;
+    box-shadow: 0px 0px 0px 2px #f1f1f1;
+}
+
+section.formModule {
+    padding: 200px 0px 100px;
+}
+
+.carousel-inner {
+    border: 2px solid steelblue;
+}
+
+.carousel-inner img {
+    max-height: 500px;
+    min-height: 500px;
+    width: 100%;
+}
+
+section.animationModule {
+    padding: 1px 0px 50px;
+}
+
+.productData img {
+    width: 100%;
+    min-height: 250px;
+    max-height: 250px;
+}
+
+.productData {
+    box-shadow: 0px 0px 5px 2px #ebe3e3;
+}
+
+.productData h4 {
+    font-size: 18px;
+    padding: 5px;
+}
+
+.productData span {
+    color: steelblue;
+    margin: 15px 0px;
+}
+
+section.covidCaremodule {
+    margin: 50px 0px;
+    border: 2px solid #000;
+}
+
+section.covidCaremodule .container-fluid {
+    padding: 30px 0px;
+}
+
+section.covidCaremodule h3 {
+    padding: 0px 0px 20px;
+}
+
+/* .productData:hover img { transform: scale(1.1);} */
+
+
+section.covidCaremodule .container-fluid .row {
+    margin: 0px 15px;
+    display: flex;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    width: 90%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn {
+    padding: 12px;
+    font-size: 14px !important;
+    letter-spacing: 0px;
+    background: #000;
+    color: #fff;
+    border: none;
+    margin: 10px 0;
+}
+
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a.icon {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: black;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    display: none;
+}
+
+.activee {
+    background-color: #04AA6D;
+    color: white;
+}
+
+@media(max-width: 800px) {
+    section.covidCaremodule .container-fluid .row>.col-md-3 {
+        padding: 0px 10px;
+        width: calc(100%/2);
+        margin-bottom: 20px;
+    }
+
+    .topnav a.icon {
+        display: block;
+    }
+
+    div#myLinks {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        z-index: 1;
+        display: none;
+        padding: 50px;
+    }
+
+    ul.navbar-nav {
+        padding: 0;
+    }
+
+    header.section-header .navbar-dark .navbar-nav .nav-item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .topnav a.icon {
+        z-index: 2;
+    }
+}
+
+@media(max-width: 500px) {
+    section.covidCaremodule .container-fluid .row>.col-md-3 {
+        padding: 0px 10px;
+        width: calc(100%/1);
+        margin-bottom: 40px;
+    }
+}
+
+.productData:hover img {
+    transform: scale(1.1);
+}
+
+button.btn.addTocart:hover {
+    background: rgb(250, 234, 230);
+    color: rgb(0, 255, 76);
+}
+
+section.covidCaremodule .container-fluid .row {
+    margin: 0px 15px;
+    display: flex;
+}
+
+button.btn.addTocart {
+    display: block;
+    border: 2px solid steelblue;
+    width: 90%;
+    margin: 15px;
+    font-weight: 600;
+    color: orange;
+    font-size: 18px;
+    letter-spacing: 1px;
+}

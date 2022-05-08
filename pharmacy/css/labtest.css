@@ -1,0 +1,102 @@
+section.formModule {
+  padding: 200px 0px 100px;
+}
+
+.row>* {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x)/ 2);
+  padding-left: calc(var(--bs-gutter-x)/ 2);
+  margin-top: var(--bs-gutter-y);
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x)/ -2);
+  margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+
+.row.imageSection {
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 0px 0px 2px #f1f1f1;
+}
+
+.imageSection {
+  background-image: url(./images/lab-test.jpg);
+  height: 400px;
+  overflow-y: scroll;
+  background-attachment: fixed;
+  background-size: 50%;
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.formLab {
+  width: 40%;
+  height: 100%;
+  background: #fff;
+
+}
+
+.labForm {
+  width: 100%;
+}
+
+section {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+ul.navbar-nav {
+  margin: 0px;
+}
+
+header.section-header .navbar-dark .navbar-nav .nav-item {
+  display: inline-block;
+  padding: 16px;
+}
+
+li.nav-item.dropdown {
+  position: relative;
+}
+
+li.nav-item.dropdown:hover ul.dropdown-menu {
+  display: block;
+}
+
+ul.dropdown-menu {
+  width: 150px;
+  left: 0px;
+}
+
+ul.dropdown-menu>li a {
+  padding: 8px 12px;
+  display: block;
+}
+
+footer.footer p {
+  margin-bottom: 0px;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  color: black;
+}

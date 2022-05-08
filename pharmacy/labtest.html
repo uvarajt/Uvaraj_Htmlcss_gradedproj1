@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Lab Test - Pharmacy</title>
+	<link rel="stylesheet" href="css/labtest.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+
+	</style>
+</head>
+
+<body>
+
+	<header class="section-header fixed-top">
+		<div class="brandName topnav">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">Pharmacy</a>
+
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+			<div class="container">
+				<div class="collapse navbar-collapse" id="myLinks">
+					<ul class="navbar-nav">
+
+						<li class="nav-item active"> <a class="nav-link" href="index.html">Home </a> </li>
+
+						<li class="nav-item dropdown">
+							<a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">Our Medicines </a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Fever</a></li>
+								<li><a class="dropdown-item" href="#">Muscle Pains</a></li>
+								<li><a class="dropdown-item" href="#">Cold & Cough</a></li>
+							</ul>
+						</li>
+
+						<li class="nav-item dropdown">
+							<a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">Healthcare </a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Baby Care</a></li>
+								<li><a class="dropdown-item" href="#">Skin Care</a></li>
+								<li><a class="dropdown-item" href="#">Home Care</a></li>
+								<li><a class="dropdown-item" href="#">Personal Care</a></li>
+								<li><a class="dropdown-item" href="#">Pet Care</a></li>
+							</ul>
+						</li>
+
+
+
+						<li class="nav-item"><a class="nav-link" href="#">Lab Test </a></li>
+
+					</ul>
+				</div> <!-- navbar-collapse.// -->
+			</div> <!-- container-fluid.// -->
+		</nav>
+	</header>
+
+	<section class="formModule">
+		<div class="container">
+			<div class="row imageSection">
+				<div class="col-md-6 col-sm-12 formLab">
+					<form class="labForm" action="#">
+						<h3 class="formHeading">1. Your Contact Details</h3>
+						<div class="form-inline">
+							<div class="form-group">
+								<input type="text" class="form-control" id="fullname" placeholder="Full Name">
+							</div>
+
+							<div class="form-group">
+								<input type="text" class="form-control" id="pateintId"
+									placeholder="Patient Id (if exists)">
+							</div>
+						</div>
+
+						<div class="form-inline">
+							<div class="form-group">
+								<input type="text" class="form-control" id="contact" placeholder="Contact Number">
+							</div>
+
+							<div class="form-group">
+								<input type="email" class="form-control" id="email" placeholder="Email ID">
+							</div>
+						</div>
+
+						<h3 class="formHeading">2. Address</h3>
+						<div class="form-inline">
+							<div class="form-group">
+								<input type="text" class="form-control" id="hno" placeholder="H-No">
+							</div>
+
+							<div class="form-group">
+								<input type="text" class="form-control" id="street" placeholder="Street">
+							</div>
+						</div>
+
+						<div class="form-inline">
+							<div class="form-group">
+								<input type="text" class="form-control" id="area" placeholder="Area">
+							</div>
+
+							<div class="form-group">
+								<input type="text" class="form-control" id="district" placeholder="District">
+							</div>
+						</div>
+
+						<h3 class="formHeading">3. Choose the Test Type</h3>
+						<div class="form-group">
+							<select class="form-control" id="testType">
+								<option>Select Test Type</option>
+								<option>CBC</option>
+								<option>Complete Urine</option>
+								<option>Lipid Profile</option>
+								<option>Thyroid Stimulating Hormone(TSH)</option>
+								<option>Glucose Test</option>
+							</select>
+						</div>
+
+						<h3>4. Do you want a hard copy of the report also?</h3>
+						<div class="form-group">
+							<label class="radio-inline"><input type="radio" name="optradio" checked>Yes</label>
+							<label class="radio-inline"><input type="radio" name="optradio">No</label>
+						</div>
+
+						<h3>5. Select Your Comfortable Date and Time</h3>
+						<div class="form-inline">
+							<div class="form-group">
+								<input type="date" class="form-control" id="date" placeholder="Date">
+							</div>
+
+							<div class="form-group">
+								<input type="time" class="form-control" id="time" placeholder="Time">
+							</div>
+						</div>
+
+
+
+					</form>
+				</div>
+
+
+			</div>
+			<div class="submitButtons">
+				<button class="btn btn-reset">Reset</button>
+				<button class="btn btn-reset">Submit</button>
+			</div>
+		</div>
+	</section>
+
+
+
+	<footer class="footer">
+		<div class="container">
+			<p>&copy copyright.Only for demonstration purposes</p>
+		</div>
+	</footer>
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myLinks");
+			if (x.style.display === "block") {
+				x.style.display = "none";
+			} else {
+				x.style.display = "block";
+			}
+		}
+	</script
+</body>
+</html>
